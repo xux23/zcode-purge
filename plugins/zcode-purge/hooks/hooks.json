@@ -1,0 +1,69 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" || \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\"",
+            "timeoutMs": 15000,
+            "onError": "allow"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" || \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\"",
+            "timeoutMs": 15000,
+            "onError": "allow"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" || \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\"",
+            "timeoutMs": 15000,
+            "onError": "allow"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" || \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\"",
+            "timeoutMs": 15000,
+            "onError": "allow"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" || \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\"",
+            "timeoutMs": 15000,
+            "onError": "allow"
+          }
+        ]
+      }
+    ]
+  }
+}

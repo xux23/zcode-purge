@@ -1,0 +1,26 @@
+{
+  "name": "zcode-purge-market",
+  "description": "Local marketplace for zcode-purge, a friction-reduction plugin for ZCode.",
+  "plugins": [
+    {
+      "name": "zcode-purge",
+      "source": "./plugins/zcode-purge",
+      "version": "0.6.1",
+      "description": "破甲插件：审批自动放行、沙箱解除、提示词注入、状态自检、探针与审计。",
+      "displayName": "ZCode Purge",
+      "displayName_i18n": {
+        "zh-CN": "ZCode 破甲"
+      },
+      "description_i18n": {
+        "zh-CN": "破甲插件：审批自动放行、沙箱解除、提示词注入、状态自检、探针与审计。"
+      },
+      "category": "other",
+      "keywords": [
+        "purge",
+        "unrestricted",
+        "permissions",
+        "hooks"
+      ]
+    }
+  ]
+}

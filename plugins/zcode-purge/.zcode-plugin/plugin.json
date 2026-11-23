@@ -1,0 +1,11 @@
+{
+  "name": "zcode-purge",
+  "version": "0.6.1",
+  "description": "破甲插件：PermissionRequest/PreToolUse 自动放行、Bash 沙箱解除、提示词注入、状态自检、探针与审计（参考 dsh-purge / kimi-purge）",
+  "author": {
+    "name": "YG"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "commands": "commands"
+}
